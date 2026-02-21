@@ -4,6 +4,8 @@
 
 # <div align="center" >Subject-Motion Representation Alignment for Customized Video Generation<div align="center">
 
+## <div align="center">🎈🎉 **CVPR 2026** 🎉🎈</div>
+
 <div align="center">
   <p>
     <a href="https://xuxuancheng0208.github.io/">Xuancheng Xu</a><sup>1</sup>
@@ -35,7 +37,7 @@
 Customized video generation aims to produce videos that faithfully preserve the subject's appearance from reference images while maintaining temporally consistent motion from reference videos. Existing methods struggle to ensure both subject appearance similarity and motion pattern consistency due to the lack of object-level guidance for subject and motion. To address this, we propose SMRABooth, which leverages the self-supervised encoder and optical flow encoder to provide object-level subject and motion representations. These representations are aligned with the model during the LoRA fine-tuning process. Our approach is structured in three core stages: (1) We exploit subject representations via a self-supervised encoder to guide subject alignment, enabling the model to capture overall structure of subject and enhance high-level semantic consistency. (2) We utilize motion representations from an optical flow encoder to capture structurally coherent and object-level motion trajectories independent of appearance. (3) We propose a subject-motion association decoupling strategy that applies sparse LoRAs injection across both locations and timing, effectively reducing interference between subject and motion LoRAs. Extensive experiments show that SMRABooth excels in subject and motion customization, maintaining consistent subject appearance and motion patterns, proving its effectiveness in controllable text-to-video generation. 
 
 ## 🔥 Updates
-
+- **2026.02.21** 🎈🎉🎆 Our SMRABooth has been accepted by CVPR 2026! 🎆🎉🎈
 - **2026.02.18** Our full code for SMRABooth has been released on GitHub!
 - **2025.12.13** Our preprint for SMRABooth has been released on arXiv!
 
