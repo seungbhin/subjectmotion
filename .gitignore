@@ -1,0 +1,20 @@
+# Model weights & checkpoints
+ckpts/
+/models/
+outputs/
+
+# Datasets & cached tensors
+datasets/
+*.cache.pt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude
+.claude/
+
+# Misc
+*.log
+.DS_Store
