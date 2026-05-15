@@ -3,8 +3,7 @@ ckpts/
 /models/
 outputs/
 
-# Datasets & cached tensors
-datasets/
+# VAE latent cache (재생성 가능)
 *.cache.pt
 
 # Python cache
@@ -18,3 +17,6 @@ __pycache__/
 # Misc
 *.log
 .DS_Store
+
+# VAE latent cache (재생성 가능)
+*.cache.pt
